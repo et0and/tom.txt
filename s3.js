@@ -1,6 +1,6 @@
 var r = -1;
 
-var mx = 499; // maximum
+var mx = 6; // maximum
 var a = new Array();
 
 
@@ -8,12 +8,12 @@ function AddNumsToDict(){
     var m,n,i,j;
     i = 0;
     j = 0;
-    while (i <= 499)
+    while (i <= 6)
     {
        m = (500 * Math.random()) + 1;
        n = Math.floor(m);
        
-       for (j=0;j<=499;j++)
+       for (j=0;j<=6;j++)
        {
          if (a[j] == (n-1))
          {
